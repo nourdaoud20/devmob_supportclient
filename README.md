@@ -1,17 +1,24 @@
-# devmob_supportclient
+# DEVMOB SUPPORTCLIENT - Application Mobile
 
-A new Flutter project.
+Application mobile d'assistance client et de gestion des réclamations développée avec Flutter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎨 Maquette Figma
+Consultez les interfaces et le prototype interactif complet :
+👉 **[Accéder à la maquette Figma](https://www.figma.com/design/qKoMdes5PfWgHo8wsCUkHF/Projet_ticketing?node-id=0-1&t=B4hOYFhLlvqmoeDh-1)**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 📱 Module d'Authentification (DS)
+- **Splash Screen** : Page de démarrage avec navigation directe vers Connexion et Inscription.
+- **Connexion** : Contrôle des champs, validation e-mail (regex) et sécurité par CAPTCHA mathématique dynamique.
+- **Création de compte** : Champs Nom et Prénom séparés, confirmation de mot de passe, sélection du profil (*Client* / *Agent Support*) et CAPTCHA.
+- **Mot de passe oublié & Réinitialisation** : Parcours complet de récupération de compte.
+- **Espace Accueil** : Confirmation d'accès avec affichage du profil et de l'e-mail.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Stack Technique
+- **Framework** : Flutter / Dart
+- **Design System** : Conforme à la charte graphique (`#2563EB`, `#1E293B`, `#F8FAFC`).
